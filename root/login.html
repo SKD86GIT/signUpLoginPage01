@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../css3/style1.css">
+    <title>Login Form</title>
+</head>
+
+<body>
+    <!-- header section starts ==============================-->
+    <header id="header" class="header">
+
+    </header>
+    <!-- header section ends ================================-->
+
+
+    <!-- main section starts ================================-->
+    <main id="main" class="main">
+
+
+        <!-- form section starts  ===============================-->
+        <form action="#" id="form" class="form">
+            <h1>Log In</h1>
+            <span id="message"></span> <!-- error message-->
+
+
+            <!-- home section starts ================================-->
+            <section id="home">
+
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" class="form_data" id="email" name="email" autofocus placeholder="Enter your Email Address" />
+                    <small id="email_error"></small> <!-- error message-->
+                </div>
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="password" class="form_data" id="password1" name="pwd" placeholder="Enter Password" />
+                    <i id="eyeBtn" class="material-icons">
+                        <span id="icon" class="material-icons-outlined">visibility_off</span>
+                    </i>
+                    <small id="pwd_error"></small> <!-- error message-->
+                </div>
+
+            </section>
+            <!-- home section ends ==================================-->
+
+
+            <!-- captcha section starts =============================-->
+            <section id="captcha">
+                <div class="form-row">
+                    <label for="captcha">Enter Captcha</label>
+                </div>
+                <div class="form-row-wrapper">
+                    <div class="captcha">
+                        <input type="text" id="captcha" name="captcha" placeholder="Enter Captcha" />
+                    </div>
+                    <div class="captcha2">
+                        <input type="text" id="captcha2" name="captcha2" readonly />
+                    </div>
+                </div>
+            </section>
+            <!-- captcha section ends ===============================-->
+
+
+            <!-- button section starts ==============================-->
+            <section id="btn">
+                <button class="btn-submit">Login</button>
+            </section>
+            <!-- button section ends ================================-->
+
+
+            <!-- footer section starts ==============================-->
+            <section id="footer">
+                <footer>
+                    <p class="member">
+                        Not yet a member? <a href="#"><span>Sign up</span></a>
+                    </p>
+                </footer>
+            </section>
+            <!-- footer section ends ================================-->
+
+
+        </form>
+        <!-- form section ends ==================================-->
+
+
+    </main>
+    <!-- main section ends ==================================-->
+
+    
+    <script src="../js/main1.js"></script>
+</body>
+
+</html>
